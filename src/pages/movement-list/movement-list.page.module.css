@@ -1,0 +1,78 @@
+.root {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 5px solid #232c3b;
+}
+
+.header-container h1 {
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+.header-container .balance {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #22c6cb;
+}
+
+.balanceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.balanceLabel {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 2px;
+}
+
+.balanceAmount {
+    font-size: 24px;
+    color: #22c6cb;
+    font-weight: bold;
+}
+
+.account-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.movement-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.movement-table th,
+.movement-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.movement-table th {
+    font-weight: bold;
+}
+
+.movement-table .amount-negative {
+    color: red;
+}
+
+.movement-table .value-date {
+    color: #555;
+    font-style: italic;
+}
