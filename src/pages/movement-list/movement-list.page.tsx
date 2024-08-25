@@ -52,7 +52,7 @@ export const MovementListPage: React.FC = () => {
               return (
                 <tr key={movement.id}>
                   <td>{movement.date}</td>
-                  <td>{movement.date}</td> { }
+                  <td>{movement.valueDate}</td> 
                   <td>{movement.description}</td>
                   <td
                     className={
